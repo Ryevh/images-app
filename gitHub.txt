@@ -34,5 +34,22 @@ git remote add origin https://github.com/Ryevh/images-app.git
 git branch -M main
 git push -u origin main
 
--> REFRESHE GITHUB BROWSER PAGE TO SEE PUSHED DATA INOT REPOSITORY 
+-> REFRESH GITHUB BROWSER PAGE TO SEE PUSHED DATA INOT REPOSITORY 
 
+NOTE: in result we should see all the pushed data in newly created GitHub repository 'images-app'
+
+* IF YOU MAKE ANY CHANGES/UPDATES IN THE FILES OF THE PUSHED INTO GITHUB REPOSITORY THEN RUN COMMANDS WITH UPDATED CHANGES 
+
+- RUN COMMAND TO ADD ALL FILES TO REPOSITORY
+...............................
+git add .
+
+- RUN COMMAND TO COMMIT FILES 
+...............................
+git commit -m "first commit"
+
+- RUN COMMANDS RECIVED FROM GITHUB CREATED NEW REPOSITORY DATA
+...............................
+git remote add origin https://github.com/Ryevh/images-app.git
+git branch -M main
+git push -u origin main
