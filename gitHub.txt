@@ -1,5 +1,5 @@
 . ==============================
-. 'DEPLOY APPLICATION'
+. 'CREATE GITHUB REPOSITORY'
 . ==============================
 
 - NOTE: make sure to delete all the console syntax codes before deployment 
