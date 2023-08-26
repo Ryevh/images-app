@@ -1,0 +1,38 @@
+. ==============================
+. 'DEPLOY APPLICATION'
+. ==============================
+
+- NOTE: make sure to delete all the console syntax codes before deployment 
+
+-> Create a new repository on github 'images-app'
+
+-> Copy following commands of created repository to use in CLI terminal command line to push data: 
+...............................
+git remote add origin https://github.com/Ryevh/images-app.git
+git branch -M main
+git push -u origin main
+
+- RUN COMMAND TO REMOVE EXISTING GIT ON MACBOOK
+...............................
+rm -rf .git
+
+- RUN COMMAND TO INITIALISE NEW GIT REPOSITORY
+...............................
+git init
+
+- RUN COMMAND TO ADD ALL FILES TO REPOSITORY
+...............................
+git add .
+
+- RUN COMMAND TO COMMIT FILES 
+...............................
+git commit -m "first commit"
+
+- RUN COMMANDS RECIVED FROM GITHUB CREATED NEW REPOSITORY DATA
+...............................
+git remote add origin https://github.com/Ryevh/images-app.git
+git branch -M main
+git push -u origin main
+
+-> REFRESHE GITHUB BROWSER PAGE TO SEE PUSHED DATA INOT REPOSITORY 
+
